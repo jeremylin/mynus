@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript">
 function showHint(str)
 {
@@ -46,10 +47,10 @@ var xmlhttp;
 </script>
 </head>
 <body>
-<img src="maxresdefault.jpg">
-輸入贊助編號：<input type="text" id="uid" />
+<div class="bg">
+<div class="main">輸入贊助編號：<input type="text" id="uid" />
 <input type="button" name="inq" value="查詢" onclick="showHint(uid.value);"></br>
 
-<span id="order_status"></span>
+<span id="order_status"></span></div></div>
 </body>
 </html>

@@ -1,0 +1,14 @@
+.bg {
+	background-image: url("maxresdefault.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.main {
+	background-color: #fff;
+	opacity: 0.8;
+	border-radius: 10px;
+	padding: 20px;
+}
